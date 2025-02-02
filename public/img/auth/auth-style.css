@@ -1,0 +1,52 @@
+/* auth-style.css */
+
+/* Container untuk gambar */
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 500px; /* Batasi lebar maksimal */
+    max-height: 500px; /* Batasi tinggi maksimal */
+    margin: 0 auto; /* Pusatkan gambar */
+  }
+  
+  /* Gambar */
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Gambar menyesuaikan area tanpa terdistorsi */
+  }
+  
+  /* Layout utama */
+  .login-layout {
+    background: #f0f2f5;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Card untuk form login */
+  .login-card {
+    width: 80%;
+    max-width: 1200px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Kolom kiri (gambar) */
+  .left-column {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  
+  /* Kolom kanan (form) */
+  .right-column {
+    padding: 40px;
+  }
